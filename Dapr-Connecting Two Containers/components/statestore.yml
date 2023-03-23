@@ -1,0 +1,12 @@
+componentType: state.azure.blobstorage
+version: v1
+metadata:
+- name: accountName
+  value: bayanstrgacct
+- name: accountKey
+  secretRef: account-key
+- name: containerName
+  value: mystuff
+secrets:
+- name: account-key
+  value: "HQDWA19GpMAb+gII7JdGHvMQOO1KMJHK0vLiU4fMouPbM7J0orD7w8xTEtaaGLgU0sogxaC1FLyO+ASt/RiR9w=="
